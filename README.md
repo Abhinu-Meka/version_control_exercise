@@ -54,16 +54,16 @@ Run the unemployment report:
 ```sh
 #ALPHAVANTAGE_API_KEY="..." python app/unemployment.py
 
-python app/unemployment.py
+python -m app.unemployment
 ```
 
 Run the stocks report:
 
 ```sh
-python app/stocks.py
+python -m app.stock
 ```
 
 Run the example email sending file:
 ```sh
-python app/email_service.py
+python -m app.email_service
 ```
