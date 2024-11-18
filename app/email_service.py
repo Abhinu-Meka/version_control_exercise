@@ -51,8 +51,8 @@ def send_email_with_sendgrid(recipient_address=SENDGRID_SENDER_ADDRESS,
         print(err)
 
 
+if __name__ == "__main__":
 
+    # SEND EXAMPLE EMAIL:
 
-# SEND EXAMPLE EMAIL:
-
-send_email_with_sendgrid(html_content="Hello. Tuesday Night")
+    send_email_with_sendgrid(html_content="Hello. Tuesday Night")
