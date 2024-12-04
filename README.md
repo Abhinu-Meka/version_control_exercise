@@ -70,8 +70,6 @@ python -m app.email_service
 
 ### web app
 
-Run the web app (then view in the browser at http://localhost:5000/):
-
 ```sh
 # Mac OS:
 FLASK_APP=web_app flask run
